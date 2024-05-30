@@ -1,0 +1,188 @@
+/* header */
+#top {
+    width: 100vw;
+    height: 30px;
+    background: rgb(56, 50, 48);
+}
+.div {
+    color: rgb(255, 255, 255);
+    font-family: IBM Plex Mono;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#header {
+    width: 100vw;
+    height: 61px;
+    background: rgb(254, 253, 252);
+}
+.logo {
+    width: 79.79px;
+    height: 20px;
+    margin-top: 24px;
+}
+.nav_link {
+    color: rgb(56, 50, 48);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+.nav_link:hover {
+    border: 2px solid #e7e7e7;
+    padding: 5px;
+}
+.div:hover {
+    text-decoration: underline;
+}
+#sign_in {
+    color: rgb(56, 50, 48);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+}
+#search {
+    width: 16px;
+    height: 16px;
+}
+#bag {
+    width: 16px;
+    height: 16px;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin: 20px;
+}
+button:active {
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: rgba(247, 179, 243, 0.418);
+}
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* main */
+#title {
+    width: 100vw;
+    height: 236px;
+    background: rgb(249, 247, 244);
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: EB Garamond;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 76.8px;
+    letter-spacing: 3.2px;
+    text-align: center;
+}
+#picture {
+    width: 1200px;
+    height: 640px;
+}
+p:not(.text) {
+    color: rgb(0, 0, 0);
+    font-family: EB Garamond;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.lead {
+    width: 100vw;
+    height: 365px;
+    background: rgb(254, 253, 252);
+}
+aside {
+    width: 100vw;
+    height: 80px;
+    background: rgb(249, 247, 244);
+}
+#learn {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-decoration: underline;
+}
+#learn:hover {
+    text-decoration: none;
+}
+#vogue {
+    width: 54.98px;
+    height: 14.06px;
+    margin: 30px;
+}
+#new-york {
+    width: 69.43px;
+    height: 15px;
+    margin: 30px;
+}
+#thewallstreetjournal {
+    width: 114.37px;
+    height: 9.69px;
+    margin: 30px;
+}
+#food-wine {
+    width: 114.5px;
+    height: 15px;
+    margin: 30px;
+}
+#traveler {
+    width: 37.22px;
+    height: 16.79px;
+    margin: 30px;
+}
+#theguardian {
+    width: 46.89px;
+    height: 15px;
+    margin: 30px;
+}
+.pic {
+    width: 500px;
+    height: 333px;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: EB Garamond;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 0.7px;
+    text-align: left;
+}
+.text {
+    color: rgb(85, 85, 85);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+}
+
+/* fonts */
+@font-face {
+    font-family: EB Garamond;
+    src: url(/assets/fonts/EBGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url(/assets/fonts/IBMPlexMono-Regular.ttf);
+}
